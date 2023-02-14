@@ -8,3 +8,17 @@ body{
 
 }
 
+.center{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.link{
+    padding: 1rem 1rem;
+    text-decoration: none
+}
+
+.link{
+    color: red;
+}

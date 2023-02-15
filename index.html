@@ -15,11 +15,12 @@
 
 <!--second way of adding css  -->
 <!--   -->
+<link href="styles.css" rel="stylesheet"/>
 <body>
     <h1 style="color:red"> Welcome to Shrikant's component library</h1>
 
-    <h1>Hi i am new to this.</h1>
-    <p> I am enjoying learning html and looking forward to learn more and more.</p>
+    <h1 class="para">Hi i am new to this.</h1>
+    <p > I am enjoying learning html and looking forward to learn more and more.</p>
     <hr>
     <h2 style="color:blueviolet">Point Two</h2>
     <p>I have learned javascript in the first lesson.</p>
@@ -28,18 +29,27 @@
     <h3>Previously i have coded a little bit in python. Had built a chatbot using numpy two years ago.</h3>
     <hr>
     <h2 >fluid container</h2>
-    <div class="container-fluid">this is going to be a fluid container. It will go till the end of the page.</div>
+    <div class="container fluid">this is going to be a fluid container. It will go till the end of the page.</div>
     
     <h2 >Center container</h2>
     <div class="container center">This text will be in between the page and it is not happening i dont know why lets see what happens</div>
     <hr>
+
+
     <h2>Links</h2>
     <a class="link primary-link" href="https://shrikant95.netlify.app">Shrikant's_website</a>
     <br>
-    <a href="link secondary-link">secondarylink</a>
+    <br>
+    <br>
+   
+    <a class="link secondary-link" href="">secondarylink</a>
     <hr>
-    <h2 class="listclass">lists</h2>
-    <ul>
+
+
+    
+    <h2>@lists</h2>
+    <h2>unordered list</h2>
+    <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item two</li>
         <li>Item three</li>
@@ -47,37 +57,39 @@
 
     </ul>
     <hr>
-    <h2 class="listclass">Unordered inline list</h2>
-    <ul>
-        <li>Inline item one</li>
-        <li>Inline item two</li>
-        <li>Inline item three</li>
+
+    <h2>Unordered inline list</h2>
+    <ul class="list-non-bullet">
+        <li class="list-items-inline">Inline item one</li>
+        <li class="list-items-inline">Inline item two</li>
+        <li class="list-items-inline">Inline item three</li>
 
     </ul>
 
     <hr>
-    <h2 class="listclass">Reverse Ordered List</h2>
-    <ol>
+    <h2>Reverse Ordered List</h2>
+    <ol reversed>
         <p>this is going to be a <strong>reverse</strong> list. it will show content in reverse if we use css</p>
         <li>milk</li>
         <li>eggs</li>
         <li>break</li>
         
     </ol>
+
     <hr>
     <h2>Navigation</h2>
     
-    <nav>
-        <div>SK portfolio</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation">
+        <div class="brand-name">SK portfolio</div>
+        <ul style="text-align: right;">
+            <li class="list-items-inline">
+                <a class="secondary-link-white" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Produts</a>
+            <li class="list-items-inline">
+                <a class="secondary-link-white"href="/">Products</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-items-inline">
+                <a class="secondary-link-white"href="/">About</a>
             </li>
     
     
@@ -85,16 +97,18 @@
             
         </ul>   
     </nav>
+
+
     <hr>
     <h2>Header</h2>
     
-    <header>
-        <img src="images/undraw_investing_re_bov7.svg">
-        <h3> heading inside </h3>
+    <header class="hero">
+        <img class="hero-img"   src="images/undraw_investing_re_bov7.svg">
+        <h3 class="hero-text"> Invest your <span class="header-highlight">now </span>in learning and <span class="header-highlight">let it compound</span></h3>
 
         <hr>
-        <img src="https://upload.wikimedia.org/wikipedia/en/b/bf/A_Dog%27s_Purpose_%28film%29.jpg">
-        <p>A <strong>DOG</strong>'s Photo</p>
+        <img class="hero-img"  src="https://upload.wikimedia.org/wikipedia/en/b/bf/A_Dog%27s_Purpose_%28film%29.jpg">
+        <p style="text-align: center;">A <strong>DOG</strong>'s Photo</p>
     </header>
     <hr>
     <h2>Section</h2>

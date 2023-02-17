@@ -13,6 +13,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
+    margin:0px
 
 }
 
@@ -47,6 +48,8 @@ body{
     border-radius: 0.5rem;
     color: white;
     text-decoration: none;
+    padding: 1rem ;
+    margin:auto
 }
 
 hr{
@@ -117,8 +120,9 @@ hr{
 .ow{
     background-color: var(--darkgray-color);
     border-radius: 0.5rem;
-    border-bottom-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    text-align: center;
+    padding: 1rem ;
+    
 }
 
 .container-sample{
@@ -129,7 +133,7 @@ hr{
 .footer{
     background-color: blueviolet;
     padding: 2rem;
-    border-style: double;
+    
     border-radius: 0.5rem;
     
 }

@@ -10,6 +10,11 @@
     ; 
 }
 
+.navigation ul{
+    padding: 2rem;
+}
+
+
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -31,16 +36,16 @@ body{
 }
 
 
-.link{
-    padding: 1rem 3rem;
-    text-decoration: none
-}
+
 
 .primary-link{
-    background-color: orange; 
+    background-color:blueviolet; 
     border-radius: 0.5rem;
-    border-style: solid;
-    color: red;
+    padding: 1rem;
+    margin: auto;
+    color:white;
+    align-items: center;
+    text-decoration: none;
 }
 
 .secondary-link{
@@ -48,7 +53,7 @@ body{
     border-radius: 0.5rem;
     color: white;
     text-decoration: none;
-    padding: 1rem ;
+    padding: 1rem;
     margin:auto
 }
 
@@ -80,11 +85,18 @@ hr{
 
 }
 
+.link-active{
+    font-weight: 3rem;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
 .brand-name{
     color: white;
     padding-left: 1rem;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 
 .hero{
@@ -92,20 +104,23 @@ hr{
 }
 
 .hero .hero-img{
-    max-width: 500px;
+    max-width: 700px;
     display: block;
     margin: auto;
-    padding: 1rem;
+    padding: 2rem;
+    text-align: center;
+    
 }
 
 .hero .hero-text{
     color: var(--darkgray-color);
     padding: 1rem;
     text-align: center;
+    
 }
 
 .hero .hero-text .header-highlight{
-    color: var(--main-color);
+    color:blueviolet;
 }
 
 .section h3 {
@@ -113,12 +128,16 @@ hr{
     
 }
 
+.section-content{
+    padding: 1rem;
+}
+
 .section{
     padding: 2rem;
 }
 
 .ow{
-    background-color: var(--darkgray-color);
+    background-color:lightgray;
     border-radius: 0.5rem;
     text-align: center;
     padding: 1rem ;
@@ -128,6 +147,8 @@ hr{
 .container-sample{
     margin: auto;
     max-width: 700px;
+    padding: 2rem;
+    text-align: center;
 }
 
 .footer{
@@ -141,6 +162,8 @@ hr{
 .footer-header{
     text-align: center;
     color: white;
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link{
